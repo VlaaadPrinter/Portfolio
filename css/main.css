@@ -1,0 +1,232 @@
+/*Основная страница*/
+
+body{
+	background-color: #ffffff;
+	font-family: 'Inter', sans-serif;
+}
+
+p, a{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.container1{
+	max-width: 1180px;
+	margin: 0 auto;
+	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding-top: 47px;
+  	margin-bottom: 139px;
+}
+
+.logo{
+	width: 62px;
+	height: 62px;
+}
+
+.textmenu .work {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.textmenu .work:after {
+    display: block;
+    content: "";
+    background-color: #3730A3;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    bottom: -7px;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.textmenu .work:hover:after,
+.textmenu .work:focus:after {
+    width: 100%;
+}
+
+.work{
+	text-decoration: none;
+	color: #6B7280;
+	margin-right: 80px;
+}
+
+.workline{
+	text-decoration: none;
+	color: #6B7280;
+	margin-right: 80px;
+}
+
+.textmenu .workline {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.textmenu .workline:after {
+    display: block;
+    content: "";
+    background-color: #3730A3;
+    height: 2px;
+    width: 100%;
+    left: 50%;
+    bottom: -7px;
+    position: absolute;
+}
+
+
+.call{
+	color: #3730A3;
+	padding: 12px 32px;
+	border: 1px solid #3730A3;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+.container2{
+	width: 1180px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 47px;
+}
+
+.hrname{
+	display: flex;
+}
+
+.hr{
+	width: 102px;
+	height: 0px;
+	background: #4338CA;
+	border: 1px solid #3730A3;
+
+}
+
+.name{
+	font-size: 20px;
+	color: #4338CA;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.workname{
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+	font-size: 72px;
+	color: #1F2937;
+	margin: 50px 0 50px;
+}
+
+.about{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #6B7280;
+	margin-bottom: 80px;
+}
+
+.call1{
+	color: #FFFFFF;
+	padding: 12px 32px;
+	background: #3730A3;
+	border-radius: 6px;
+	margin-right: 20px;
+}
+
+.work1{
+	color: #3730A3;
+	padding: 12px 32px;
+	background: #FFFFFF;
+	border: 1px solid #3730A3;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+.hrd{
+	width: 622px;
+	height: 0px;
+	background: #6B7280;
+	border: 1px solid #E5E7EB;
+	margin: 80px 0 20px;
+}
+
+.time{
+	font-weight: 400;
+	font-size: 12px;
+	color: #6B7280;
+}
+
+.myphoto{
+	width: 478px;
+	height: 525px;
+}
+
+/*Страница Работы-Серитификаты*/
+
+.container3{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.mywork{
+	margin: 0 auto;
+	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	margin-bottom: 46px;
+}
+
+.lairmen{
+	height: 320px;
+	border: 2px solid #3730A3;
+	border-radius: 6px;
+	transition: all 0.2s ease-in;
+}
+
+.lairmen:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 15px #8e8bb5;
+}
+
+/*Страница Связаться со мной*/
+
+.container4{
+	width: 80%;
+/*	max-width: 1180px;*/
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	margin-bottom: 26px;
+}
+
+.a1, .a2{
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.a1{
+	color: #FFFFFF;
+	padding: 12px 32px;
+	background: #3730A3;
+	border-radius: 6px;
+}
+
+.a2{
+	color: #3730A3;
+	padding: 12px 32px;
+	background: #FFFFFF;
+	border: 1px solid #3730A3;
+	box-sizing: border-box;
+	border-radius: 6px;
+}

@@ -1,0 +1,161 @@
+/*Главная страница*/
+
+@media screen and (max-width: 1250px){
+
+	p, a{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	}
+
+	br{
+		display: none;
+	}
+
+	.container1, .container2{
+		max-width: 1040px;
+	}
+
+	.name{
+		font-size: 16px;
+	}
+
+	.workname{
+		font-size: 68px;
+		margin: 40px 0 40px;
+	}
+
+	.about{
+		max-width: 80%;
+		margin-bottom: 60px
+	}
+
+	.hrd{
+		width: 85%;
+		margin: 60px 0 20px;
+	}
+
+}
+
+@media screen and (max-width: 1080px){
+
+	.container1, .container2{
+		max-width: 880px;
+	}
+
+	br{
+		display: none;
+	}
+
+	.about{
+		max-width: 80%;
+	}
+
+	.hrd{
+		max-width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 960px){
+
+	.container1, .container2{
+		max-width: 85%;
+	}
+
+	.myphoto{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 7300px){
+
+	.work{
+		margin-right: 40px;
+	}
+
+}
+
+@media screen and (max-width: 660px){
+
+	.work{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 660px){
+
+	.workname{
+		font-size: 60px;
+	}
+
+}
+
+@media screen and (max-width: 540px){
+
+	.textmenu{
+		display: none;
+	}
+
+	.container1{
+		justify-content: space-around;
+		margin-bottom: 79px;
+	}
+
+	.container2{
+		display: block;
+	}
+
+	.workname{
+		max-width: 85%;
+		font-size: 50px;
+	}
+
+}
+
+@media screen and (max-width: 400px){
+
+	.workname{
+		font-size: 40px;
+	}
+
+	.call1, .work1{
+		display: block;
+		text-align: center;
+	}
+
+	.call1{
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+
+	.hrd{
+		width: 100%;
+	}
+
+}
+
+/*Страница Работы*/
+
+@media screen and (max-width: 1400px){
+
+	.container3{
+	width: 82%;
+	}
+
+	.mywork{
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+
+	.lairmen{
+		margin-bottom: 46px;
+		width: 100%;
+		height: auto;
+	}
+
+}
+
